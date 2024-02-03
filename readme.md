@@ -1,6 +1,6 @@
 [![Asgard](https://github.com/rednightgames/asgard/assets/152066369/5542fd42-c706-4cc5-a2db-160148de9a5c)](https://rednightgames.com/)
 
-This project is a monorepo hosting the Rednight launcher. It includes the application, their dependencies & shared modules as well as all tooling surrounding development (as well as some additional miscellaneous things).
+This project is a monorepo hosting the Rednight launcher. It includes the application, they dependencies & shared modules as well as all tooling surrounding development of the launcher (as well as some additional miscellaneous things).
 
 ## License
 
