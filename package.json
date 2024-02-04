@@ -1,0 +1,21 @@
+{
+  "name": "asgard",
+  "license": "AGPL-3.0",
+  "author": "Rednight Inc.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "lint": "lerna run lint --parallel",
+    "test": "lerna run test --parallel"
+  },
+  "packageManager": "yarn@4.1.0",
+  "devDependencies": {
+    "lerna": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">= v20.9.0"
+  }
+}
