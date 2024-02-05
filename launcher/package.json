@@ -1,0 +1,15 @@
+{
+    "name": "@asgard/launcher",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "tauri dev",
+        "build": "tauri build"
+    },
+    "dependencies": {
+        "@asgard/gui": "*"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.5.8"
+    }
+}

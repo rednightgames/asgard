@@ -3,6 +3,7 @@
   "license": "AGPL-3.0",
   "author": "Rednight Inc.",
   "workspaces": [
+    "launcher",
     "packages/*"
   ],
   "scripts": {

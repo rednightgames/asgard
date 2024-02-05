@@ -2,6 +2,7 @@
 * text=auto
 
 ### SOURCE CODE ###
+*.rs       text diff=rust
 *.css      text
 *.html     text
 *.inc      text
@@ -134,3 +135,8 @@ makefile        text
 *.otf   binary
 *.woff  binary
 *.woff2 binary
+
+### CONFIGS ###
+*.toml     text diff=toml
+*.yaml     text
+*.yml      text
