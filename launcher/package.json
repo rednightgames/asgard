@@ -4,7 +4,9 @@
     "type": "module",
     "scripts": {
         "dev": "tauri dev",
-        "build": "tauri build"
+        "build": "tauri build",
+        "lint": "cargo fmt --all -- --check",
+        "lint:fix": "cargo fmt --all --"
     },
     "dependencies": {
         "@asgard/gui": "*"

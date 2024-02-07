@@ -9,6 +9,7 @@
   "scripts": {
     "build": "lerna run build",
     "lint": "lerna run lint --parallel",
+    "lint:fix": "lerna run lint:fix --parallel",
     "test": "lerna run test --parallel"
   },
   "packageManager": "yarn@4.1.0",
