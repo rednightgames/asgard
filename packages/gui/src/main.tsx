@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom/client";
-import "./styles.css";
+import {createRoot} from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById("app") as HTMLElement).render(<div />);
+createRoot(document.getElementById("app") as HTMLElement).render(<div />);
